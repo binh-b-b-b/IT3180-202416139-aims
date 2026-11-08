@@ -10,7 +10,6 @@ class Cart:
         if len(self.items) >= self.MAX_NUMBERS_ORDERED:
             return False
         self.items.append(dvd)
-        print("Đã thêm đĩa vào giỏ hàng")
         return True
 
     def remove_dvd(self, dvd):
@@ -26,6 +25,12 @@ class Cart:
         if percent < 0 or percent > 100:
             raise ValueError("Percent must be between 0 and 100")
         return round(self.total_cost() * (100 - percent) / 100, 2)
+
+    def sort_by_title(self):
+        self.items.sort(key=lambda item: item.title)
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda item: item.cost, reverse=True)
 
     def print_cart(self):
         if not self.items:
