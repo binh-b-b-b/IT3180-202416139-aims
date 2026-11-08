@@ -6,9 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-11-08
 ### Added
-- Cart.sort_by_title(): Sắp xếp các đĩa trong giỏ hàng theo thứ tự bảng chữ cái tiêu đề.
-- Cart.sort_by_cost(): Sắp xếp các đĩa trong giỏ hàng theo giá giảm dần.
+- Cart.sort_by_title(): Sắp xếp đĩa theo bảng chữ cái.
+- Cart.sort_by_cost(): Sắp xếp đĩa theo giá giảm dần.
+- search_by_category(): Tìm kiếm đĩa theo thể loại/danh mục.
 
 ## [1.0.0] - 2026-11-08
 ### Added
