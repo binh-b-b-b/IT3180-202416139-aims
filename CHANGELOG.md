@@ -7,11 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2026-11-08
+## [1.1.0] - 2026-11-09
 ### Added
 - Cart.sort_by_title(): Sắp xếp đĩa theo bảng chữ cái.
 - Cart.sort_by_cost(): Sắp xếp đĩa theo giá giảm dần.
 - search_by_category(): Tìm kiếm đĩa theo thể loại/danh mục.
+
+## [1.0.1] - 2026-11-09
+### Fixed
+- Sửa lỗi tìm kiếm tiêu đề phân biệt chữ hoa chữ thường (Fixes #20).
 
 ## [1.0.0] - 2026-11-08
 ### Added
