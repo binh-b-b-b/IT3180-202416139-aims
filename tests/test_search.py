@@ -1,0 +1,14 @@
+﻿import unittest
+from aims.dvd import DigitalVideoDisc
+from aims.search import search_by_title, search_by_category
+
+class TestSearch(unittest.TestCase):
+    def test_search_by_category(self):
+        d1 = DigitalVideoDisc("The Lion King", "Animation", 19.95)
+        d2 = DigitalVideoDisc("Star Wars", "Science Fiction", 24.95)
+        results = search_by_category([d1, d2], "animation")
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0].title, "The Lion King")
+
+if __name__ == '__main__':
+    unittest.main()
