@@ -1,3 +1,5 @@
+trả lời lab3
+
 1. Merge base là gì?
 
 Là nút tổ tiên trực hệ gần nhất giữa hai nhánh, đánh dấu thời điểm chúng phân rẽ (kiểm tra qua lệnh git merge-base A B).
