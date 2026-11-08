@@ -1,3 +1,5 @@
+Trả lời lab5
+
 1. Ưu, nhược điểm của upstream first so với release first?
 
 upstream first (Khắc phục triệt để trên nhánh chính trước, sau đó cherry-pick ngược xuống bản phát hành):
